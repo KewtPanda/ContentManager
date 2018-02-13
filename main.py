@@ -73,6 +73,7 @@ class Discord:
         for file in files:
             await self.client.send_file(self.channel_selected, file)
 
+    # NEED TO CHANGE THIS. DOWNLOADS IS SLOW, DISCONNECTS ETC. ADD THREADING, SEPERATE MESSAGE AND DONWLOAD
     async def download_files(self, folder):
         try:
             os.mkdir(self.server_selected.name)
