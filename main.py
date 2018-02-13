@@ -7,7 +7,7 @@ from discord.ext.commands import Bot
 import requests
 import os
 
-
+# FIX DOWNLOAD
 class Discord:
     def __init__(self):
         """Discord bot class
